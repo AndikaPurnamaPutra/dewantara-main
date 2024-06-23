@@ -99,12 +99,25 @@ export default function SubCotent() {
                     <h3 className="subtext-subtext text-[24px] font-semibold">
                       Lokasi Museum
                     </h3>
-                    <p className="subtext-desc max-w-[362px]">
-                      Perorangan <br /> Anak/Pelajar : Rp2.000 <br /> Mahasiswa
-                      : Rp3.000 <br />
-                      Dewasa : Rp5.000 <br />
-                      <br /> Rombongan <br /> Anak/Pelajar : Rp1.500 <br />{" "}
-                      Mahasiswa : Rp2.250 <br /> Dewasa : Rp3.750
+                    <p className="subtext-desc max-w-[362px] gap-2">
+                      <ul>
+                        <li>
+                          Perorangan
+                          <ul>
+                            <li>Anak/Pelajar : Rp2.000</li>
+                            <li>Mahasiswa : Rp3.000</li>
+                            <li>Dewasa : Rp5.000</li>
+                          </ul>
+                        </li>
+                        <li>
+                          Rombongan
+                          <ul>
+                            <li>Anak/Pelajar : Rp1.500</li>
+                            <li>Mahasiswa : Rp2.250</li>
+                            <li>Dewasa : Rp3.750</li>
+                          </ul>
+                        </li>
+                      </ul>
                     </p>
                   </div>
                 </div>

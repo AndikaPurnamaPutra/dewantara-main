@@ -1,9 +1,9 @@
-import React from 'react'
-import Iframe from 'react-iframe';
+import React from "react";
+import Iframe from "react-iframe";
 
 export default function Maps() {
   return (
-    <section className='py-9'>
+    <section className="py-9">
       <div className="container mx-auto">
         <div className="content flex flex-col gap-8">
           <div className="content-top text-center">
