@@ -44,7 +44,7 @@ export default function SubCotent() {
             </div>
           </div>
           <div className="content-right">
-            <div className="board py-4 px-6 inline-flex flex-col shadow-[0_3px_16px_rgba(0,0,0,0.3)] gap-6">
+            <div className="board py-4 px-6 inline-flex flex-col shadow-[0_3px_16px_rgba(0,0,0,0.3)] rounded-xl gap-6">
               <h2 className="pb-4 border-b-[1px] border-[#CED4DA]">
                 Papan Informasi
               </h2>
@@ -78,12 +78,11 @@ export default function SubCotent() {
                   </div>
                   <div className="subtext flex flex-col gap-2">
                     <h3 className="subtext-subtext text-[24px] font-semibold">
-                      Lokasi Museum
+                      Jam Operasional
                     </h3>
                     <p className="subtext-desc max-w-[362px]">
-                      Jalan Pintu Besar Utara No.27 Pinangsia, RT.3/RW.6, Kota
-                      Tua, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus
-                      Ibukota Jakarta
+                      Hari : Selasa - Minggu & Hari Libur Nasional Waktu : 09.00
+                      - 15.00 WIB
                     </p>
                   </div>
                 </div>
@@ -97,7 +96,7 @@ export default function SubCotent() {
                   </div>
                   <div className="subtext flex flex-col gap-2">
                     <h3 className="subtext-subtext text-[24px] font-semibold">
-                      Lokasi Museum
+                      Harga Tiket Masuk
                     </h3>
                     <p className="subtext-desc max-w-[362px] gap-2">
                       <ul>
@@ -109,6 +108,7 @@ export default function SubCotent() {
                             <li>Dewasa : Rp5.000</li>
                           </ul>
                         </li>
+                        <br></br>
                         <li>
                           Rombongan
                           <ul>
