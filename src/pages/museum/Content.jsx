@@ -1,11 +1,11 @@
-import museum1 from "../../assets/images/home/museum/img-museum1.png";
-import museum2 from "../../assets/images/home/museum/img-museum2.png";
-import museum3 from "../../assets/images/home/museum/img-museum3.png";
-import museum4 from "../../assets/images/museum/img-museum4.png";
-import museum5 from "../../assets/images/museum/img-museum5.png";
-import museum6 from "../../assets/images/museum/img-museum6.png";
-import IcArrow from "../../assets/images/home/museum/ic-arrow.svg";
-import IconLocation from "../../assets/images/home/event/icon-loc.png";
+import museum1 from "../../assets/Images/Home/Museum/img-museum1.png";
+import museum2 from "../../assets/Images/Home/Museum/img-museum2.png";
+import museum3 from "../../assets/Images/Home/Museum/img-museum3.png";
+import museum4 from "../../assets/Images/Museum/img-museum4.png";
+import museum5 from "../../assets/Images/Museum/img-museum5.png";
+import museum6 from "../../assets/Images/Museum/img-museum6.png";
+import IcArrow from "../../assets/Images/Home/Museum/ic-arrow.svg";
+import IconLocation from "../../assets/Images/Home/Event/icon-loc.png";
 
 export default function Content() {
   return (

@@ -1,5 +1,4 @@
-import LogoBrand from "../assets/images/logo-nav.svg";
-import React from "react";
+import LogoBrand from "../assets/Logo/logo-nav.svg";
 
 export default function Navbar() {
   return (

@@ -1,4 +1,4 @@
-import LogoBrand from "../assets/images/logo.svg";
+import LogoBrand from "../assets/Logo/logo-foot.svg";
 
 export default function Footer() {
   return (

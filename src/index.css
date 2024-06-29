@@ -71,6 +71,14 @@
     @apply p-1 bg-primary hover:bg-primary_hover border-2 font-semibold gap-1 rounded-lg text-white transition-all duration-300 overflow-hidden;
   }
 
+  .btn-arrow {
+    @apply bg-[#DEE2E6] hover:bg-primary p-2 rounded transition-all duration-300;
+  }
+
+  .btn-arrow:hover svg path {
+    @apply stroke-white transition-all duration-300;
+  }
+
   .btn-link {
     @apply gap-3 text-primary py-3 hover:gap-4 transition-all duration-300;
   }
